@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <link href="addbuty.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#i">Service</a></li>
+        <li><a href="#c">Contact</a></li>
+    </ul>
+    <br>
+    <h1 class="first-h1">Build Your <br>Bussiness Together</h1>
+    <a href="#"><button class="first-btn">Join us</button></a>
+    <img src="home.png" class="first-image">
+    <div id="c_color">
+        <div  class="c a" onclick="cg('#c8d8e4')"></div>
+        <div  class="c b" onclick="cg('rgb(255, 194, 83)')" ></div>
+        <div  class="c d" onclick="cg('#5CDB95')"></div>
+        <div  class="c e" onclick="cg('#88bdbc')"></div>
+        </div>
+        <script>
+            function cg(value1){
+                document.body.style.backgroundColor = value1;
+            }
+        </script>
+        <br>
+    <div class="serve" id="i">
+        <table>
+            <tr class="tr-first">
+                <th colspan="3"><span class="server-heading">Service</span></th>
+            </tr>
+            <tr class="second-tr">
+            <th><img src="custumer-satis.png" class="custumer-satisfied"></th>
+            <th><img src="custumer.avif" class="second-image"></th>
+            <th><img src="safe.png" class="third-image"></th>
+            </tr>
+            <tr>
+        <th><span class="text">10k+ Customers Satisfied</span></th>
+        <th><span class="text">24/7 Customer Supports</span></th>
+        <th><span class="text">Safe and Secure</span></th>
+</tr>
+</table>
+    </div>
+    <div class="support">
+        <span></span>
+        <img src="allinone.webp" class="custumer-service-image">
+        <h1 class="AddButy-guides">AddButy guides</h1>
+        <h1 class="We-love-to-help">
+            We love to help.<br>Seriously.
+        </h1>
+             <br>
+             <a href="#"><button class="Get-Help">Get Help</button></a>
+    </div>
+    <div class="form" id="c">
+        <h1 class="Contact-us">Contact us</h1>
+        <div class="form1">
+        <form>
+            <input type="text" id="qwert"  placeholder="Name">
+            <input type="text" id="yuiop"  placeholder="Phone number">
+        
+            <input type="text" class="email" placeholder="Email">
+            <br>
+            <textarea class="textarea"></textarea>
+            <button class="submit">Submit</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

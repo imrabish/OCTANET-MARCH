@@ -1,0 +1,224 @@
+body{
+    margin-bottom: 50px;
+    background-color: bisque;
+}
+ul{
+    width:600px;
+    float:right;
+    margin-right: 30px;
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 80px;
+}
+ul:hover li{
+    filter:blur(5px)
+}
+ul li:hover{
+    filter: blur(0px);
+}
+.first-h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 290px;
+    margin-left: 120px;
+}
+.first-image{
+    height:400px;
+    width:600px;
+    float:right;
+    margin-top: -250px;
+    margin-right: 50px;
+
+}
+#c_color{
+    position: absolute;
+    right:0;
+    position: fixed;
+    top:0;
+    background-color:rgb(181, 191, 209);
+    width: 50px;
+    border-bottom-left-radius: 25px;
+
+}
+.c{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 14px;
+    border: 3px solid white;   
+}
+.b{
+    background-color: rgb(255, 194, 83); 
+}
+.d{
+    background-color: #5CDB95;
+}
+.e{
+background-color:#88bdbc;
+}
+.a{
+    background-color: #c8d8e4;
+}
+/* table,tr,th{
+    border:2px solid red
+} */
+.serve{
+    height:480px;
+    width:100%;
+  
+    background-color:cornflowerblue;
+    margin-top: 250px;
+    border-radius: 50px;
+}
+
+.second-image{
+    height:230px;
+    width:350px;
+}
+
+.third-image{
+    height:270px;
+    width:400px;
+}
+.custumer-satisfied{
+    height:270px;
+    width:400px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+table{
+    width:100%
+}
+.tr-first{
+    height:100px
+}
+.server-heading{
+    font-size: 60px;
+    margin-top: 20px;
+}
+tr:nth-child(even){
+    height:100px
+}
+.server-heading{
+color:whitesmoke
+}
+.text{
+    color:white;
+    font-size: 30px;
+}
+.first-btn{
+    font-size: 30px;
+    border:2px solid red;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+.custumer-service-image{
+    height:400px;
+    width:500px;
+    margin-left: 100px;
+    margin-top: 80px;
+
+}
+.support{
+    height:550px;
+    width:100%;
+    background-color:darkcyan;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.AddButy-guides{
+    position: relative;
+    float:right;
+    margin-right: 515px;
+    margin-top: 100px;
+}
+.We-love-to-help{
+    font-size: 50px;
+    position: relative;
+    float:right;
+    top:-350px;
+    margin-right: 400px;
+
+}
+.Get-Help{
+    font-size: 40px;
+    position: relative;
+    float:right;
+    top:-170px;
+    border-radius: 10px;
+    margin-right: -175px; 
+}
+.Get-Help:hover{
+    background-color:chocolate;
+}
+.form{
+    height:350px;
+    width:50%;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 400px;
+}
+#qwert{
+    height:30px;
+    width:250px
+}
+#yuiop{
+    height:30px;
+    width:250px
+}
+.form1{
+    height:300px;
+    width:520px;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 130px;
+}
+.Contact-us{
+    font-size: 40px;
+    position:absolute;
+    width:250px;
+    margin-left: 300px;
+    margin-top:50px;
+}
+
+.textarea{
+    margin-top: 10px;
+    width:512px;
+    height:90px;
+    position: relative;
+}
+
+.email{
+    width:512px;
+    height:30px;
+    margin-top: 5px;
+}
+.submit{
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px red dotted;
+    margin-left: 220px;
+}
+.submit:hover{
+    background-color: chocolate;
+}
+.end{
+    height:400px;
+    width:100%;
+    border:2px solid red;
+    margin-top: 50px;
+    position: relative;
+    background-color: cornsilk;
+}
+.end-addbuty{
+    margin-left: 180px;
+}
